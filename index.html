@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Version Control System</title>
+    </head>
+    <body>
+        <div class="page">
+            <h1> Git and Github tutorial</h1>
+            <h2>Following are the steps for the understanding of Version Control System</h2>
+            <div>
+                <ol>
+                    
+                    <li>
+                        
+                        Download git in your system
+                        <a href="https://git-scm.com/downloads">Download from here</a>
+                    </li>
+                    
+                    <li>                        
+                        Firstly make the empty git repository and initialize it by <span style="background-color: grey; color: black;"> git init</span> command on your terminal
+                        <img src="images/git init.png" >
+                    </li>
+                    <li>
+                       
+                        Check the status of your to add , delete or remove files to repository byu using <span style="background-color:  grey; color: black">git status</span> Command
+                        <img src="images/git status.png" alt="">
+                    </li>
+                    
+                    <li>
+                        
+                        After checking you can add a single file to staging area by using <span style="background-color:  grey; color: black;">git add (filename)</span>  and multiple files by using <span style="background-color: grey; color: black;"> git add . </span>
+                        <img src="images/add1.png" alt=""><br>
+                        <img src="images/add2.png" alt=""><br>
+                        <img src="images/add3.png" alt="">
+                    </li>
+                    <li>
+                        
+                       You can save the files residing in staging area by commiting the files by using <span style="background-color: grey; color: black;">git commit -m "My First Commit" </span>   you can write any message in double quotes
+                        <br><img src="images/git commit.png" alt="">
+                    </li>
+                   
+                    <li>
+                        
+                        Now you link your local repository to github repository <span style="background-color: grey; color: black;">git remote add origin URL</span>
+                        <br><img src="images/add origin.png" alt="">
+                    </li>
+                    <li>
+                        
+                        To Push your code to linked repository you can use <span style="background-color: grey; color: black;">git push -u origin master / branch-name</span> This is for first time you push code other wise just use <span style="background-color: grey; color: black;">git push </span>  
+                        
+                        <br><img src="images/origin master.png" alt="">
+                    </li>
+                    <li>
+                        
+                        If you change code on github you can easily fetch it your local repository by using <span style="background-color: grey; color: black;"> git pull </span> command it will fetch all the changed files to your local repository and now your both repositories are synchronized.
+                        <br><img src="images/pull.png" alt="">
+                    </li>
+                    
+                    <li>
+                        One of the main features the branches is the main feature which allow you to make a sub repository without disturbing main stable epository by using <span style="background-color: grey; color: black;"> git branch (branchname) </span> 
+                         <br><img src="images/branch.png" alt=""> 
+                         
+                        
+                    </li>
+                    
+        
+                </ol>
+            </div>
+        </div>
+        
+    </body>
+</html>
